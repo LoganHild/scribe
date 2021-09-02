@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 const PORT = process.env.PORT || 3001
 
@@ -11,6 +12,16 @@ app.use(express.json());
 app.use(express.static('public'));
 
 
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'notes.html'));
+  });
+
+// require('./routes/apiRoutes')(app);
+
+// require('./routes/htmlRoutes')(app);
+// app.get('/notes', (req, res) => {
+//     res.json(`${req.method} request received`);
+// });
 
 app.listen(PORT, function () {
     console.log(`App listening on PORT: ${PORT}`);
