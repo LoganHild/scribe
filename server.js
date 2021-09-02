@@ -13,7 +13,7 @@ app.use(express.static('public'));
 
 
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, 'notes.html'));
+    res.sendFile(path.join(__dirname, '/public/notes.html'));
   });
 
 // require('./routes/apiRoutes')(app);
