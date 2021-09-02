@@ -1,4 +1,5 @@
 const express = require('express');
+const fs = require('fs');
 const app = express();
 const path = require('path');
 
@@ -14,14 +15,43 @@ app.use(express.static('public'));
 
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'));
-  });
+});
 
-// require('./routes/apiRoutes')(app);
+app.post('/api/notes', (req, res) => {
+    console.info(`${req.method} request received to add note`);
 
-// require('./routes/htmlRoutes')(app);
-// app.get('/notes', (req, res) => {
-//     res.json(`${req.method} request received`);
-// });
+    const {title, text} = req.body;
+
+    if (title && text) {
+        const newNote = {
+            title,
+            text,
+        };
+
+        const noteStr = JSON.stringify(newNote);
+
+        fs.appendFile(`./db/db.json`, noteStr, (err) =>
+          err
+            ? console.error(err)
+            : console.log(
+                `Note for ${newNote.title} has been written to JSON file`
+            )
+        );
+
+        const response = {
+            status: 'success',
+            body: newNote,
+        };
+
+        console.log(response);
+        res.json(response);
+    } else {
+        res.json('Error in posting new Note');
+    }
+})
+
+
+
 
 app.listen(PORT, function () {
     console.log(`App listening on PORT: ${PORT}`);
