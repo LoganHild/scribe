@@ -5,18 +5,19 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3001
 
-//Sets up the Express app to handle data parsing
+//Middleware for data parsing
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-//setup public folder for images, js, css
+//setup public folder client side
 app.use(express.static('public'));
 
-
+//gets the second html
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
 
+//POST request for adding a Note
 app.post('/api/notes', (req, res) => {
     console.info(`${req.method} request received to add note`);
 
@@ -27,17 +28,20 @@ app.post('/api/notes', (req, res) => {
             title,
             text,
         };
-
-        // const noteStr = JSON.stringify([newNote]);
-
+        
+        //checks the db.json file
         fs.readFile(`./db/db.json`, 'utf8', (err, data) => {
             if(err) {
                 console.error(err);
             } else {
+                
+                //converts to JSON object
                 const parsedNotes = JSON.parse(data);
 
+                //Adds new note to array
                 parsedNotes.push(newNote);
 
+                //Write updated Notes back to the file
                 fs.writeFile(
                     './db/db.json',
                     JSON.stringify(parsedNotes, null, 4),
