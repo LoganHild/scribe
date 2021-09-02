@@ -28,15 +28,26 @@ app.post('/api/notes', (req, res) => {
             text,
         };
 
-        const noteStr = JSON.stringify(newNote);
+        // const noteStr = JSON.stringify([newNote]);
 
-        fs.appendFile(`./db/db.json`, noteStr, (err) =>
-          err
-            ? console.error(err)
-            : console.log(
-                `Note for ${newNote.title} has been written to JSON file`
-            )
-        );
+        fs.readFile(`./db/db.json`, 'utf8', (err, data) => {
+            if(err) {
+                console.error(err);
+            } else {
+                const parsedNotes = JSON.parse(data);
+
+                parsedNotes.push(newNote);
+
+                fs.writeFile(
+                    './db/db.json',
+                    JSON.stringify(parsedNotes, null, 4),
+                    (writeErr) =>
+                      writeErr
+                        ? console.error(writeErr)
+                        : console.info('Successfully added Note!')
+                );
+            }
+        });
 
         const response = {
             status: 'success',
