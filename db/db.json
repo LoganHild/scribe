@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "title": "Don't Forget!",
+        "text": "You have a tutor appointment at 5pm on the 8th!",
+        "id": "f6fa"
+    },
+    {
+        "title": "Remember!",
+        "text": "Class begins again September 8th!",
+        "id": "047b"
+    },
+    {
+        "title": "Refresher!",
+        "text": "This is due September 8th!",
+        "id": "7c39"
+    },
+    {
+        "title": "Reminder!",
+        "text": "September 8th!",
+        "id": "29ce"
+    }
+]

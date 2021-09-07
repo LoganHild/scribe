@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-// for data parsing
+// Middleware for data parsing
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
