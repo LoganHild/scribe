@@ -43,7 +43,7 @@ module.exports = (app) => {
             }
         }
 
-        writeToFile('.db/db.json', notes);
+        writeToFile('./db/db.json', notes);
         res.json('Successfully deleted note!')
     })
 }
