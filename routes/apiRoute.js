@@ -1,5 +1,3 @@
-
-/////API Route
 const notes = require('../db/db.json');
 const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
 const uuid = require('../helpers/uuid');
@@ -49,17 +47,3 @@ module.exports = (app) => {
         res.json('Successfully deleted note!')
     })
 }
-////HTML route
-const path = require('path');
-
-module.exports = (app) => {
-    //returns notes.html file
-    app.get('/notes', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/notes.html'));
-    });
-
-    //returns index.html file
-    app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, '../public/index.html'));
-    })
-};
