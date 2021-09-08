@@ -25,7 +25,7 @@
   https://scribe-note-taker.herokuapp.com/
 
   ## Usage
-* Click the "Get Started" button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
+* Click the <img src="" button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
 * Click the section titled "Note Title" to get started by entering a title for a note the user wishes to create. 
 * Once the title has been entered the user can either press the "Tab" button or click on the next section titled "Note Text" to add the body of the note they wish to create. 
 * Once the user has started a save icon will appear in the top right hand corner of the page. 
