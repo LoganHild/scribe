@@ -20,6 +20,9 @@
 
   ## Description
   This application is a simple note taker application for writing and saving notes via express.
+  
+  ## Link to Deployed Application
+  https://scribe-note-taker.herokuapp.com/
 
   ## Usage
 * Click the "Get Started" button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
@@ -33,7 +36,9 @@
 * The user can click this to remove the saved note if they no longer deem it necessary. 
 * The user can also click the "+" symbol located on the top right hand corner to begin a new note if they are currently viewing a previous note. 
 * If the user would like to return to the main page, click the "Scribe" header located on the top left hand corner of the page to be redirected back to the main page. 
-  
+
+![Screenshot (79)](https://user-images.githubusercontent.com/82903685/132427554-2c4139c6-bead-4941-84e2-46525319a2d5.png)
+![Screenshot (81)](https://user-images.githubusercontent.com/82903685/132427559-89a39e94-83f6-423a-913a-29022b97c202.png)
 ## License
  
 MIT License
