@@ -26,7 +26,7 @@
   <img src="https://raw.githubusercontent.com/LoganHild/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
 
   ## Usage
-* Click the <img src="" button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
+* Click the <img src="https://user-images.githubusercontent.com/82903685/132427865-69f88d96-6aa4-41de-90ad-9ce7068057f3.png" alt="getStarted" width="60" height="50"/> button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
 * Click the section titled "Note Title" to get started by entering a title for a note the user wishes to create. 
 * Once the title has been entered the user can either press the "Tab" button or click on the next section titled "Note Text" to add the body of the note they wish to create. 
 * Once the user has started a save icon will appear in the top right hand corner of the page. 
