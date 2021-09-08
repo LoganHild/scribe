@@ -40,7 +40,7 @@
 * Each list item will also have a red trashcan symbol ![Screenshot (87)](https://user-images.githubusercontent.com/82903685/132428848-eba52ff2-2f3e-40df-aba4-22285cc895f3.png) signifying a delete option. 
 * The user can click this to remove the saved note if they no longer deem it necessary. 
 * The user can also click the ![Screenshot (90)](https://user-images.githubusercontent.com/82903685/132428867-4dc68ecc-fbea-4bd1-9f07-484f5d087e7f.png) symbol located on the top right hand corner to begin a new note if they are currently viewing a previous note. 
-* If the user would like to return to the main page, click the ![Screenshot (90)](https://user-images.githubusercontent.com/82903685/132428867-4dc68ecc-fbea-4bd1-9f07-484f5d087e7f.png) header located on the top left hand corner of the page to be redirected back to the main page. 
+* If the user would like to return to the main page, click the ![Screenshot (89)](https://user-images.githubusercontent.com/82903685/132428858-70ec03a1-c763-4489-8b33-2a3e6f352e38.png) header located on the top left hand corner of the page to be redirected back to the main page. 
 
 ![Screenshot (79)](https://user-images.githubusercontent.com/82903685/132427554-2c4139c6-bead-4941-84e2-46525319a2d5.png)
 ![Screenshot (81)](https://user-images.githubusercontent.com/82903685/132427559-89a39e94-83f6-423a-913a-29022b97c202.png)
