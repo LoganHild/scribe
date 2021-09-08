@@ -25,8 +25,8 @@
   https://scribe-note-taker.herokuapp.com/
 
   ## Usage
-* Click the <img src="https://user-images.githubusercontent.com/82903685/132427990-38745a13-8cac-40fc-a9b0-09fd8fcd1fd3.png" alt="getStarted" width="80" height="20"/> button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
-* Click the section labeled <img src="https://user-images.githubusercontent.com/82903685/132428168-52680dff-b2c8-431f-909b-9013aae786d9.png" alt="getStarted" width="80" height="20"/> to get started by entering a title for a note the user wishes to create. 
+* Click the <img src="https://user-images.githubusercontent.com/82903685/132427990-38745a13-8cac-40fc-a9b0-09fd8fcd1fd3.png" alt="getStarted" width="80" height="30"/> button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
+* Click the section labeled <img src="https://user-images.githubusercontent.com/82903685/132428168-52680dff-b2c8-431f-909b-9013aae786d9.png" alt="getStarted" width="80" height="25"/> to get started by entering a title for a note the user wishes to create. 
 * Once the title has been entered the user can either press the "Tab" button or click on the next section titled "Note Text" to add the body of the note they wish to create. 
 * Once the user has started a save icon will appear in the top right hand corner of the page. 
 * After the note is completed to the user's liking, click the save icon to save the note. 
