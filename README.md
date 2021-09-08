@@ -34,18 +34,18 @@
 * The user can also click the "+" symbol located on the top right hand corner to begin a new note if they are currently viewing a previous note. 
 * If the user would like to return to the main page, click the "Scribe" header located on the top left hand corner of the page to be redirected back to the main page. 
   
-  ## License
+## License
  
-  MIT License
+MIT License
 
-  <https://choosealicense.com/licenses/mit/>
+<https://choosealicense.com/licenses/mit/>
 
-  ## Contributions
-  Logan Hildebrandt via starter code from Trilogy Education Services.
+## Contributions
+Logan Hildebrandt via starter code from Trilogy Education Services.
 
-  ## Questions
-  Contact me with any questions!
+## Questions
+Contact me with any questions!
 
-  Email: <hildebrandtlogan@gmail.com>
+Email: <hildebrandtlogan@gmail.com>
 
-  Github: <https://github.com/LoganHild>
+Github: <https://github.com/LoganHild>
