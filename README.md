@@ -23,6 +23,7 @@
   
   ## Link to Deployed Application
   https://scribe-note-taker.herokuapp.com/
+  <img src="https://raw.githubusercontent.com/LoganHild/devicon/00f02ef57fb7601fd1ddcc2fe6fe670fef3ae3e4/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
 
   ## Usage
 * Click the <img src="" button on the homepage and the user will be navigated to the second page. This is where the magic happens. 
